@@ -6,5 +6,6 @@ public class ClassProb {
 
     int num = 2426;
         System.out.println("Print the last 2 digit:" + 2426%1000);
+
  }
 }

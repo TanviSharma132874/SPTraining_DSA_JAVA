@@ -7,13 +7,15 @@ public class NoOfDigit {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a Number: ");
         int num = sc.nextInt();
-        int count =0;
-        while(num>0){
-//            while(num!=0){
-            num = num/10;
-            count++;
-        }
-        System.out.println(count);
+//        int count =0;
+//        while(num>0){
+////            while(num!=0){
+//            num = num/10;
+//            count++;
+//        }
+//        System.out.println(count);
+        int digit = (int)Math.log10(num)+1;
+        System.out.println(digit);
     }
 }
 //  Count of odd number..
